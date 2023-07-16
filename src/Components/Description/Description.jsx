@@ -22,7 +22,7 @@ export function Description ({title, content}) {
         <div className="description">
             <h1 ref={ref1} id='one' className={isVisible1 ? "reveal-2" : "reveal reveal-2"}>{title}</h1>
             <p>{content}</p>
-            <a ref={ref2} id='' className={isVisible2 ? "revealLink-2" : "revealLink revealLink-2"}href="#">SHOP NOW <img src="/images/icon-arrow.svg" alt="" /></a>
+            <a ref={ref2} id='' className={isVisible2 ? "revealLink-2" : "revealLink revealLink-2"}href="#">SHOP NOW <img src="images/icon-arrow.svg" alt="" /></a>
         </div>
     )
 
