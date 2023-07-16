@@ -15,8 +15,6 @@ export function Description ({title, content}) {
 
     const [ ref2, isVisible2 ] = useElementOnScreen(options);
 
-    console.log(isVisible1, isVisible2);
-
 
     return (
         <div className="description">

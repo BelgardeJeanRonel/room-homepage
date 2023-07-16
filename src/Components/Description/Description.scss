@@ -30,6 +30,10 @@
         text-decoration: none;
         letter-spacing: .5rem;
         color: $veryDarkGray;
+
+        &:hover {
+            border-bottom: 1px solid;
+        }
     }
 
     .reveal[class*="reveal-"]{
