@@ -13,7 +13,7 @@ export function About () {
 
     return (
         <div className='container-about'>
-            <div className='about-dark'><img src="/images/image-about-dark.jpg" alt="" /></div>
+            <div className='about-dark'><img src="images/image-about-dark.jpg" alt="" /></div>
 
             <div className='about-text'>
                 <h3 ref={ref3} className={isVisible3 ? "title reveal-2" : "title reveal reveal-2"} >ABOUT OUR FURNITURE</h3>
@@ -21,7 +21,7 @@ export function About () {
 Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
             </div>
 
-            <div className='about-light'><img src="/images/image-about-light.jpg" alt="" /></div>
+            <div className='about-light'><img src="images/image-about-light.jpg" alt="" /></div>
         </div>
     )
 }

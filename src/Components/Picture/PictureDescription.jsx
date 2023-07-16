@@ -11,10 +11,10 @@ export function PictureDescription ({pictureMobile, pictureDesktop, handleClickA
 
             <div className="icon-angle">
                 <div className="angle-left" onClick={handleClickAngleLeft}>
-                    <img src="/images/icon-angle-left.svg" alt="" />
+                    <img src="images/icon-angle-left.svg" alt="" />
                 </div>
                 <div className="angle-right" onClick={handleClickAngleRight}>
-                    <img src="/images/icon-angle-right.svg" alt="" />
+                    <img src="images/icon-angle-right.svg" alt="" />
                 </div>
             </div>
         </div>
