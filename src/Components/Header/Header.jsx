@@ -46,14 +46,14 @@ export function Header () {
     return (
         <header className="header">
             <div className="header-logo">
-                <a href="index.html"><img src="/images/logo.svg" alt="" /></a>
+                <a href="index.html"><img src="images/logo.svg" alt="" /></a>
             </div>
 
             <div className="header-menu">
-                <img onClick={handleClickOpenMenu} className="icon-open" src="/images/icon-hamburger.svg" alt="" />
+                <img onClick={handleClickOpenMenu} className="icon-open" src="images/icon-hamburger.svg" alt="" />
                 <div className={classBgModal}></div>
                 <nav className={classNav}>
-                    <img onClick={handleClickCloseMenu} className="icon-close" src="/images/icon-close.svg" alt="" />
+                    <img onClick={handleClickCloseMenu} className="icon-close" src="images/icon-close.svg" alt="" />
                     <ul>
                         {lisElement}
                     </ul>
