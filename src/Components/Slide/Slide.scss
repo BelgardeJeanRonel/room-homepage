@@ -1,0 +1,30 @@
+@import "../../_variables";
+
+
+.container-slide {
+    position: relative;
+
+    .sectionDescription {
+        display: flex;
+        flex-direction: column;
+    
+        @include largeScreen() {
+            flex-direction: row;
+        }
+    
+        .containerPicture {
+    
+            @include largeScreen() {
+                flex: 60%;   
+            }
+        }
+    
+        .description {
+    
+            @include largeScreen() {
+                flex: 40%;
+            }
+        }
+    }
+}
+

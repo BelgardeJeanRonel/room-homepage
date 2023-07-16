@@ -1,0 +1,54 @@
+@import "../../_variables";
+
+
+.container-about {
+    margin-top: -.3rem;
+    background-color: rgb(251, 251, 251);
+
+    @include largeScreen() {
+        display: flex;
+        // grid-template-columns: 30% 40% 30%;
+    }
+    .about-dark, .about-light {
+        flex: 30%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .about-text {
+        padding: 2rem 1.5rem;
+        flex: 40%;
+
+        .title {
+            letter-spacing: .3rem;
+            color: $black;
+        }
+
+        p {
+            color: $darkGray;
+            font-size: .8rem;
+            line-height: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+       
+        
+    }
+}
+
+.reveal[class*="reveal-"]{
+    opacity: 0 !important;
+    transform: translateY(10px) !important;
+    transition: 0s !important;
+}
+  
+body [class*="reveal-"]{
+    transition: 2s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-2{
+    transition-delay: .4s;
+}
